@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working as an intern in BROTOTYPE.<br>👯 I’m looking to collaborate with exciting project and innovative developers<br>🌱 I’m currently learning as a Full Stack developer using Python Django<br><br>Django | Python | PostgreSQL | Bootstrap <br>
+🔭 I’m currently working as an intern in BROTOTYPE.<br>👯 I’m looking to collaborate with exciting project and innovative developers<br>🌱 I’m currently learning as a Full Stack developer using Python Django and React JS<br><br>Django | Python | PostgreSQL | Bootstrap <br>
 
 
 ## 🌐 Socials:
