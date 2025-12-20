@@ -94,7 +94,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=amrazz&theme=radical" alt="amrazz streak" />
+  <img src="https://streak-stats.demolab.com/?user=amrazz&theme=radical&v=2" alt="amrazz streak" />
 </p>
 
 ---
