@@ -13,16 +13,16 @@
 ### 💫 About Me
 - 🔭 **Currently working on:** NextJS, ReactJS, FastAPI, Django
 - 🌱 **Learning journey:** LangChain, LLMs, GSAP
-- 👨‍💻 **Portfolio:** [amrazz.vercel.app](https://amrazz.vercel.app)
-- 📝 **Writing articles:** [Medium (@amrazrafeek2020)](https://medium.com/@amrazrafeek2020)
+- 👨‍💻 **Portfolio:** <a href="https://amrazz.vercel.app" target="_blank">amrazz.vercel.app</a>
+- 📝 **Writing articles:** <a href="https://medium.com/@amrazrafeek2020" target="_blank">Medium (@amrazrafeek2020)</a>
 - 💬 **Ask me about:** ReactJS, NextJS, FastAPI
 - ⚡ **Fun fact:** When code works but no one knows why, it becomes legacy code.
 
 <p align="center">
-  <a href="https://linkedin.com/in/amrazrafeeque/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <a href="https://twitter.com/amrazrafee13679" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" /></a>
-  <a href="https://instagram.com/_amrzz__" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" /></a>
-  <a href="https://www.leetcode.com/amrxx" target="blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="leetcode" /></a>
+  <a href="https://linkedin.com/in/amrazrafeeque/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+  <a href="https://twitter.com/amrazrafee13679" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" /></a>
+  <a href="https://instagram.com/_amrzz__" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" /></a>
+  <a href="https://www.leetcode.com/amrxx" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="leetcode" /></a>
 </p>
 
 ---
@@ -101,13 +101,13 @@
 
 ### ☕ Support My Work
 <p align="center">
-  <a href="https://www.buymeacoffee.com/amrazz">
+  <a href="https://www.buymeacoffee.com/amrazz" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="amrazz" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://amrazz.vercel.app"><b>Website</b></a> • 
-  <a href="mailto:amrazrafeek2020@gmail.com"><b>Email</b></a> •
-  <a href="https://medium.com/@amrazrafeek2020"><b>Blog</b></a>
+  <a href="https://amrazz.vercel.app" target="_blank"><b>Website</b></a> • 
+  <a href="mailto:amrazrafeek2020@gmail.com" target="_blank"><b>Email</b></a> •
+  <a href="https://medium.com/@amrazrafeek2020" target="_blank"><b>Blog</b></a>
 </p>
