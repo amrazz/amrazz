@@ -1,8 +1,11 @@
-<h1 align="center">Hi 👋, I'm Amraz Rafeeque</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Amraz%20Rafeeque&fontSize=70" />
+</p>
+
 <h3 align="center">Freelance Full-Stack Developer | Building Scalable & Maintainable Systems</h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=amrazz&theme=flat&column=7" alt="amrazz trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amrazz&theme=react-dark&hide_border=true" width="100%" />
 </p>
 
 ---
@@ -10,6 +13,7 @@
 ### 💫 About Me
 - 🔭 **Currently working on:** NextJS, ReactJS, FastAPI, Django
 - 🌱 **Learning journey:** LangChain, LLMs, GSAP
+- 👨‍💻 **Portfolio:** [amrazz.vercel.app](https://amrazz.vercel.app)
 - 📝 **Writing articles:** [Medium (@amrazrafeek2020)](https://medium.com/@amrazrafeek2020)
 - 💬 **Ask me about:** ReactJS, NextJS, FastAPI
 - ⚡ **Fun fact:** When code works but no one knows why, it becomes legacy code.
@@ -80,12 +84,6 @@
   </tr>
 </table>
 
-<details>
-<summary><b>View All Tools & Technologies</b></summary>
-<br />
-Azure, Babel, Bash, Blender, Bootstrap, C, ChartJS, Firebase, GCP, Git, HTML5, Jenkins, Kafka, Kubernetes, MongoDB, MSSQL, Nginx, NodeJS, Postman, React Native, Redis, Redux, Webpack.
-</details>
-
 ---
 
 ### 📊 GitHub Stats
@@ -109,6 +107,7 @@ Azure, Babel, Bash, Blender, Bootstrap, C, ChartJS, Firebase, GCP, Git, HTML5, J
 </p>
 
 <p align="center">
-  <a href="https://amrazz.vercel.app"><b>Portfolio Website</b></a> • 
-  <a href="mailto:amrazrafeek2020@gmail.com"><b>Email Me</b></a>
+  <a href="https://amrazz.vercel.app"><b>Website</b></a> • 
+  <a href="mailto:amrazrafeek2020@gmail.com"><b>Email</b></a> •
+  <a href="https://medium.com/@amrazrafeek2020"><b>Blog</b></a>
 </p>
