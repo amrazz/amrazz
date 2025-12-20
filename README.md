@@ -94,7 +94,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amrazz&theme=radical" alt="amrazz streak" />
+  <img src="https://streak-stats.demolab.com?user=amrazz&theme=radical" alt="amrazz streak" />
 </p>
 
 ---
