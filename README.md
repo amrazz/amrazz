@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Amraz%20Rafeeque&fontSize=70" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Amraz%20Rafeeque&fontSize=70&fontColor=ffffff" alt="header" />
 </p>
 
 <h3 align="center">Freelance Full-Stack Developer | Building Scalable & Maintainable Systems</h3>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amrazz&theme=react-dark&hide_border=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amrazz&theme=react-dark&hide_border=true" width="100%" alt="activity graph" />
 </p>
 
 ---
@@ -18,18 +18,18 @@
 - 💬 **Ask me about:** ReactJS, NextJS, FastAPI
 - ⚡ **Fun fact:** When code works but no one knows why, it becomes legacy code.
 
-<p align="left">
-  <a href="https://linkedin.com/in/amrazrafeeque/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/amrazrafee13679" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-  <a href="https://instagram.com/_amrzz__" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://www.leetcode.com/amrxx" target="blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" /></a>
+<p align="center">
+  <a href="https://linkedin.com/in/amrazrafeeque/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+  <a href="https://twitter.com/amrazrafee13679" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" /></a>
+  <a href="https://instagram.com/_amrzz__" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" /></a>
+  <a href="https://www.leetcode.com/amrxx" target="blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="leetcode" /></a>
 </p>
 
 ---
 
 ### 🛠 Languages and Tools
 
-<table>
+<table align="center">
   <tr>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40" alt="JS" />
@@ -89,18 +89,18 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amrazz&show_icons=true&locale=en&theme=radical" alt="amrazz" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=amrazz&show_icons=true&locale=en&layout=compact&theme=radical" alt="amrazz" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=amrazz&show_icons=true&locale=en&theme=radical" alt="amrazz stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=amrazz&show_icons=true&locale=en&layout=compact&theme=radical" alt="amrazz languages" height="150" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amrazz&theme=radical" alt="amrazz" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amrazz&theme=radical" alt="amrazz streak" />
 </p>
 
 ---
 
 ### ☕ Support My Work
-<p align="left">
+<p align="center">
   <a href="https://www.buymeacoffee.com/amrazz">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="amrazz" />
   </a>
