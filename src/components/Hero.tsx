@@ -107,7 +107,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-linear-to-b from-[#111] via-transparent to-[#111] opacity-60 z-10"></div>
         <img
           ref={imgRef}
-          src="/public/heroimg.jpeg"
+          src="/heroimg.png"
           alt="Amraz Rafeek Portrait"
           className="w-full h-full object-cover object-[85%_top] md:object-[95%_top] opacity-90"
         />
