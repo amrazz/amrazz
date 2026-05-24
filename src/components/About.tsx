@@ -61,7 +61,7 @@ export default function About() {
             ref={pRef}
             className="text-sm md:text-base text-gray-400 leading-relaxed font-sans"
           >
-            Bringing your vision to life quickly and efficiently—whether it's custom SaaS platforms, e-commerce applications, or modern software solutions—I've got it covered, delivering smooth and scalable code from start to finish.
+            Bringing your vision to life quickly and efficiently, whether it's custom SaaS platforms, e-commerce applications, or modern software solutions, I've got it covered, delivering smooth and scalable code from start to finish.
           </p>
           <a 
             href="#projects" 

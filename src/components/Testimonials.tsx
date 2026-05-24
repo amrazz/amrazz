@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const testimonials = [
   {
-    quote: "Working with Amraz transformed our online presence. He didn't just write code; he architected a platform that helped us double our conversion rates. The transparency and dedication at every stage was incredible.",
+    quote: "Working with Amraz transformed our online presence. He didn't just created a website; he architected a platform that helped us double our conversion rates. The transparency and dedication at every stage was incredible.",
     author: "Sarah Jenkins",
     role: "Founder, TechLaunch"
   },
