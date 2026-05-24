@@ -68,7 +68,7 @@ export default function BookCall() {
               </a>
               <a 
                 href="mailto:amrazrafeek2020@gmail.com"
-                className="inline-flex items-center bg-white text-black justify-center gap-2 px-8 py-4  border border-white/20 font-medium rounded-full hover:bg-white/5 transition-all duration-300"
+                className="inline-flex items-center bg-white text-black justify-center gap-2 px-8 py-4  border border-white/20 font-medium rounded-full hover:-translate-y-1 transition-all duration-300"
               >
                 Send Email Instead
               </a>
