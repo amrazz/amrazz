@@ -71,7 +71,13 @@ export default function Hero() {
     >
       {/* Top Navbar Simulation */}
       <div className="flex justify-between items-center text-xs md:text-sm font-medium tracking-wide z-10 mix-blend-difference pointer-events-none">
-        <div className="pointer-events-auto">© Amraz Rafeek</div>
+        <div className="pointer-events-auto mix-blend-normal isolation-isolate">
+          <img
+            src="/logo1.png"
+            alt="Amraz Rafeek"
+            className="h-8 md:h-10 w-auto object-contain brightness-0 invert"
+          />
+        </div>
         <div className="hidden md:flex space-x-12 pointer-events-auto">
           <a
             href="#projects"
