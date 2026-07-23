@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -42,7 +44,7 @@ export default function Services() {
       className="w-full bg-brand-bg pt-24 pb-32 px-6 md:px-12 flex flex-col border-b border-[#222] overflow-hidden"
     >
       <div className="text-brand-orange text-sm font-bold tracking-widest mb-6">
-        // Services
+        {"// Services"}
       </div>
 
       <div className="flex flex-col items-start w-full">

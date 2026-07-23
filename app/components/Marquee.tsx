@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -68,10 +70,10 @@ export default function Marquee() {
   return (
     <section 
       ref={containerRef} 
-      className="relative w-full h-[500px] md:h-[700px] flex justify-center items-center overflow-hidden bg-brand-bg border-y border-brand-surface"
+      className="relative w-full h-125 md:h-175 flex justify-center items-center overflow-hidden bg-brand-bg border-y border-brand-surface"
     >
       {/* Center Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] h-[50vw] max-w-[600px] max-h-[600px] bg-brand-orange blur-[100px] opacity-20 pointer-events-none rounded-full z-0"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] h-[50vw] max-w-150 max-h-150 bg-brand-orange blur-[100px] opacity-20 pointer-events-none rounded-full z-0"></div>
 
       {/* Background/Blurred Ribbon */}
       <div 

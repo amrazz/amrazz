@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -8,7 +10,7 @@ const projectsData = [
   {
     title: "Flower Grid Wellness",
     description: "Health and wellness care services",
-    img: "/flowergrid.png",
+    img: "/works/flowergrid.png",
     tags: ["Healthcare", "React", "Frontend"],
     link: "https://flowergrid.co.uk",
     isPrivate: false,
@@ -16,15 +18,23 @@ const projectsData = [
   {
     title: "Brown Beans Coffee",
     description: "Premium coffee shop website.",
-    img: "/brownbeans.png",
+    img: "/works/brownbeans.png",
     tags: ["Frontend", "Website", "Design"],
     link: "https://brownbeans.vercel.app/",
     isPrivate: false,
   },
   {
+    title: "Extra Logic",
+    description: "Global business consultancy and custom engineering solutions.",
+    img: "/works/extralogic.png",
+    tags: ["Frontend", "Website", "Design"],
+    link: "https://extra-logic.com/",
+    isPrivate: false,
+  },
+  {
     title: "Grainora",
     description: "Bring together producers and buyers worldwide",
-    img: "/grainora.png",
+    img: "/works/grainora.png",
     tags: ["Platform", "B2B", "Web"],
     link: "https://grainora-group.com/",
     isPrivate: false,
@@ -32,7 +42,7 @@ const projectsData = [
   {
     title: "Arrham Portfolio",
     description: "Clean, minimalist portfolio for international clients.",
-    img: "/arrham.png",
+    img: "/works/arrham.png",
     tags: ["React", "Tailwind", "Portfolio"],
     link: "https://arrham-group.vercel.app/",
     isPrivate: false,
@@ -40,7 +50,7 @@ const projectsData = [
   {
     title: "Cool Star AC Services",
     description: "Online platform for ac services",
-    img: "/cool-star.png",
+    img: "/works/cool-star.png",
     tags: ["Services", "Platform", "Web"],
     link: "https://cool-star-ebon.vercel.app/",
     isPrivate: false,
@@ -88,8 +98,8 @@ export default function Projects() {
       });
 
       // Cards Animation
-      const cards = gsap.utils.toArray(".project-card");
-      cards.forEach((card: any, i) => {
+      const cards = gsap.utils.toArray(".project-card") as Element[];
+      cards.forEach((card, i) => {
         gsap.from(card, {
           scrollTrigger: {
             trigger: card,
@@ -120,7 +130,7 @@ export default function Projects() {
         <div className="w-full flex flex-col md:flex-row justify-between items-end gap-6 border-b border-[#222] pb-6">
           <div>
             <div className="text-brand-orange text-sm font-bold tracking-widest mb-4 uppercase">
-              // Selected Work
+              {"// Selected Work"}
             </div>
             <h2 className="text-4xl md:text-6xl font-display font-semibold text-white tracking-tight">
               Showcase

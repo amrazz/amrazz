@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
@@ -71,27 +73,14 @@ export default function Hero() {
     >
       {/* Top Navbar Simulation */}
       <div className="flex justify-between items-center text-xs md:text-sm font-medium tracking-wide z-10 mix-blend-difference pointer-events-none">
-        <div className="pointer-events-auto mix-blend-normal isolation-isolate">
+        <div className="pointer-events-auto">
           <img
-            src="/logo1.png"
-            alt="Amraz Rafeek"
-            className="h-8 md:h-10 w-auto object-contain brightness-0 invert"
+            src="/logo.png"
+            alt="Amraz Rafeeque"
+            className="h-8 md:h-10 w-auto object-contain"
           />
         </div>
-        <div className="hidden md:flex space-x-12 pointer-events-auto">
-          <a
-            href="#projects"
-            className="hover:text-brand-orange transition-colors"
-          >
-            Projects
-          </a>
-          <a
-            href="#about"
-            className="hover:text-brand-orange transition-colors"
-          >
-            About
-          </a>
-        </div>
+
         <div className="flex items-center space-x-6 pointer-events-auto">
           <a
             href="#contact"
@@ -109,31 +98,32 @@ export default function Hero() {
       </div>
 
       {/* Main Center Content */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+      <div className="absolute inset-0 flex items-end justify-center pointer-events-none z-0">
         <div className="absolute inset-0 bg-linear-to-b from-[#111] via-transparent to-[#111] opacity-60 z-10"></div>
         <img
           ref={imgRef}
-          src="/heroimg.png"
-          alt="Amraz Rafeek Portrait"
-          className="w-full h-full object-cover object-[85%_top] md:object-[95%_top] opacity-90"
+          src="/amraz.png"
+          alt="Amraz Rafeeque Portrait"
+          className="h-full w-auto max-w-full object-contain object-bottom opacity-90 select-none"
         />
       </div>
 
-      <div className="relative z-10 flex flex-col items-end lg:items-start justify-center w-full mt-auto mb-auto pointer-events-none">
+
+      <div className="relative z-10 flex flex-col items-center lg:items-start justify-center w-full -mt-74 md:mt-auto md:mb-auto pointer-events-none">
         <h1
           ref={textRef}
-          className="font-display font-bold text-[14vw] md:text-[12vw] leading-[0.8] tracking-tighter text-right md:text-left uppercase"
+          className="font-display font-bold text-[14vw] md:text-[10vw] leading-[0.8] tracking-tighter text-start md:text-left uppercase"
         >
           <span className="block text-white mix-blend-difference">Amraz</span>
           <span className="block text-transparent text-stroke-1 md:text-stroke-2 text-stroke-white mt-1 md:mt-2">
-            Rafeek
+            Rafeeque
           </span>
         </h1>
       </div>
 
       {/* Bottom Content */}
       <div className="relative z-10 flex flex-row justify-between items-end w-full">
-        <div className="flex flex-col space-y-1 md:space-y-2 text-xs md:text-sm mix-blend-difference text-white">
+        <div className="hidden md:flex flex-col space-y-1 md:space-y-2 text-xs md:text-sm mix-blend-difference text-white">
           <a
             href="https://www.linkedin.com/in/amrazrafeeque/"
             target="_blank"
@@ -158,10 +148,18 @@ export default function Hero() {
           >
             Github
           </a>
+          <a
+            href="https://www.instagram.com/amrazrafeek?igsh=NW91MDRjb281d3hz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-brand-orange transition-colors pointer-events-auto"
+          >
+            Instagram
+          </a>
         </div>
 
-        <div className="text-right font-display text-base sm:text-xl md:text-5xl font-semibold leading-tight mix-blend-difference text-white">
-          // Web Developer <br /> SaaS Architect
+        <div className="ml-auto text-right font-display text-base sm:text-xl md:text-5xl font-semibold leading-tight mix-blend-difference text-white">
+          {"// Web Developer"} <br /> SaaS Architect
         </div>
       </div>
     </section>

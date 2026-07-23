@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -32,11 +34,11 @@ export default function BookCall() {
       className="w-full bg-brand-bg py-24 md:py-32 flex flex-col items-center justify-center px-6 relative overflow-hidden"
     >
       {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[800px] h-[400px] bg-brand-orange blur-[150px] opacity-[0.08] pointer-events-none rounded-full z-0"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-200 h-100 bg-brand-orange blur-[150px] opacity-[0.08] pointer-events-none rounded-full z-0"></div>
 
       <div className="max-w-4xl w-full flex flex-col items-center text-center relative z-10">
         <div className="book-element text-brand-orange text-sm font-bold tracking-widest mb-6 uppercase">
-          // Let's connect
+          {"// Let's connect"}
         </div>
         
         <h2 className="book-element text-4xl md:text-6xl lg:text-7xl font-display font-semibold text-white tracking-tight mb-6">
@@ -45,7 +47,7 @@ export default function BookCall() {
         </h2>
         
         <p className="book-element text-gray-400 text-base md:text-lg max-w-xl mx-auto mb-12">
-          Whether you need a massive scale redesign or a complex SaaS architecture, let's hop on a brief, no-pressure discovery call to discuss your goals.
+          Whether you need a massive scale redesign or a complex SaaS architecture, let&apos;s hop on a brief, no-pressure discovery call to discuss your goals.
         </p>
 
         {/* Booking Options Container */}

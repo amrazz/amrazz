@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -52,8 +54,8 @@ export default function Testimonials() {
       });
 
       // Bento Grid Cards Animation
-      const cards = gsap.utils.toArray('.testimonial-card');
-      cards.forEach((card: any, i) => {
+      const cards = gsap.utils.toArray('.testimonial-card') as Element[];
+      cards.forEach((card, i) => {
         gsap.from(card, {
           scrollTrigger: {
             trigger: card,
@@ -91,7 +93,7 @@ export default function Testimonials() {
     >
       <div ref={textRef} className="flex flex-col items-center w-full">
         <div className="text-brand-orange text-sm font-bold tracking-widest mb-6 uppercase">
-          // Client Feedback
+          {"// Client Feedback"}
         </div>
 
         <div className="text-center mb-16 md:mb-20 px-6 max-w-3xl">
@@ -99,7 +101,7 @@ export default function Testimonials() {
             Impactful Successes
           </h2>
           <p className="text-gray-400 text-sm md:text-base max-w-lg mx-auto mt-4">
-            Social proof from the leaders and teams we've partnered with to create digital excellence.
+            Social proof from the leaders and teams we&apos;ve partnered with to create digital excellence.
           </p>
         </div>
       </div>
@@ -116,7 +118,7 @@ export default function Testimonials() {
                   <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" />
                 </svg>
                 <p className={`text-gray-300 font-medium ${i === 0 ? 'text-xl md:text-2xl lg:text-3xl leading-tight font-display' : 'text-base md:text-lg leading-relaxed'}`}>
-                  "{t.quote}"
+                  &ldquo;{t.quote}&rdquo;
                 </p>
               </div>
               <div className="flex items-center gap-4 mt-auto">
