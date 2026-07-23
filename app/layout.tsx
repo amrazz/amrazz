@@ -30,7 +30,7 @@ const caveat = Caveat({
   weight: ["400"],
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://amraz.dev";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://amraz.in";
 
 export const viewport: Viewport = {
   themeColor: "#111111",

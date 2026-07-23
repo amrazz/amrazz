@@ -57,8 +57,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Amraz Rafeeque",
-    "url": "https://amraz.dev",
-    "image": "https://amraz.dev/amraz.png",
+    "url": "https://amraz.in",
+    "image": "https://amraz.in/amraz.png",
     "jobTitle": "Freelance Full-Stack Developer & SaaS Architect",
     "sameAs": [
       "https://www.linkedin.com/in/amrazrafeeque/",
@@ -86,10 +86,10 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Amraz Rafeeque Portfolio",
-    "url": "https://amraz.dev",
+    "url": "https://amraz.in",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://amraz.dev/?q={search_term_string}",
+      "target": "https://amraz.in/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     },
     "publisher": {
@@ -106,7 +106,7 @@ export default function Home() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://amraz.dev"
+        "item": "https://amraz.in"
       }
     ]
   };
@@ -115,9 +115,9 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Amraz Rafeeque Custom Software & Engineering",
-    "image": "https://amraz.dev/amraz.png",
-    "@id": "https://amraz.dev/#services",
-    "url": "https://amraz.dev",
+    "image": "https://amraz.in/amraz.png",
+    "@id": "https://amraz.in/#services",
+    "url": "https://amraz.in",
     "telephone": "+919947620637",
     "priceRange": "$$",
     "address": {
