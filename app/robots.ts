@@ -1,13 +1,16 @@
-import { MetadataRoute } from 'next';
+import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://amraz.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://amraz.dev";
+
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: ['/private/'],
-    },
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+    ],
     sitemap: `${baseUrl}/sitemap.xml`,
+    host: baseUrl,
   };
 }
