@@ -30,7 +30,7 @@ export default function Hero() {
         { scale: 1.15, opacity: 0 },
         {
           scale: 1.05,
-          opacity: 0.9,
+          opacity: 1,
           duration: 2,
           ease: "power3.out",
           delay: imgDelay,
@@ -105,13 +105,13 @@ export default function Hero() {
       <div className="absolute inset-0 flex items-end justify-center pointer-events-none z-20">
         {/* Subtle orange background glow behind the portrait but in front of PORTFOLIO to blend them nicely */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[60%] h-[50%] bg-brand-orange/5 rounded-full blur-[120px] pointer-events-none"></div>
-        <div className="absolute inset-0 bg-linear-to-b from-[#111]/30 via-transparent to-[#111] opacity-90 z-30"></div>
         <img
           ref={imgRef}
           src="/amraz.png"
           alt="Amraz Rafeeque Portrait"
-          className="h-full w-auto max-w-full object-contain object-bottom opacity-95 select-none z-20"
+          className="h-full w-auto max-w-full object-contain object-bottom relative z-10"
         />
+        <div className="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-[#111]/80 pointer-events-none z-20"></div>
       </div>
 
       {/* Foreground Content Overlays (Name, Details, Stats) */}
